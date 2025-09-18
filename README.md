@@ -54,13 +54,11 @@ The purpose of this project is to demonstrate **geospatial data analysis and cli
    OUT_CSV = r"PATH_TO_OUTPUT/bd_division_monthly_2024_2025.csv"
 Install Python dependencies
 
-bash
-Copy code
+bash:::
 pip install xarray rioxarray geopandas pandas numpy rasterstats
 Run the script
 
-bash
-Copy code
+bash:::
 python produce_bd_division_monthly.py
 Check the output CSV
 
