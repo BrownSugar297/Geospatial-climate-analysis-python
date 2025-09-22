@@ -1,7 +1,7 @@
 # Geospatial-climate-analysis-python
-# Bangladesh Climate Data (2024-2025)
+# Bangladesh Climate Data (2019-2025)
 
-This repository contains a Python script and the resulting CSV dataset for **Bangladesh division-wise monthly climate data** (temperature and precipitation) for **2024 and 2025**.
+This repository contains a Python script and the resulting CSV dataset for **Bangladesh division-wise monthly climate data** (temperature and precipitation) for **2019-2025**.
 
 The purpose of this project is to demonstrate **geospatial data analysis and climate data processing skills** using Python.
 
@@ -10,7 +10,7 @@ The purpose of this project is to demonstrate **geospatial data analysis and cli
 ## **Files**
 
 - `produce_bd_division_monthly.py` – Python script to process ERA5 NetCDF files and generate CSV.  
-- `bd_division_monthly_2024_2025.csv` – Output dataset containing division-wise monthly averages.  
+- `bd_division_monthly_2019_2025.csv` – Output dataset containing division-wise monthly averages.  
 
 ---
 
@@ -19,7 +19,7 @@ The purpose of this project is to demonstrate **geospatial data analysis and cli
 | Column             | Description                         |
 |-------------------|-------------------------------------|
 | `division`         | Name of the division (Bangladesh)   |
-| `year`             | Year (2024 or 2025)                 |
+| `year`             | Year (2019 or 2025)                 |
 | `month`            | Month (1–12)                        |
 | `mean_t2m_C`       | Mean 2m temperature in Celsius      |
 | `total_precip_mm`  | Total monthly precipitation in mm   |
@@ -32,7 +32,7 @@ The purpose of this project is to demonstrate **geospatial data analysis and cli
    - Go to [Copernicus Climate Data Store (CDS)](https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels-monthly-means?tab=overview)  
    - Create a free account if you don’t have one.  
    - Select **Monthly Aggregates** → **Single Levels** → **2m Temperature (t2m)** and **Total Precipitation (tp)**.  
-   - Select the years **2024 and 2025**.  
+   - Select the years **2019 - 2025**.  
    - Download files in **NetCDF (.nc) format**.
 
 2. **Organize files locally**  
