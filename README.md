@@ -6,7 +6,6 @@ This repository contains a Python script and the resulting CSV dataset for **Ban
 The purpose of this project is to demonstrate **geospatial data analysis and climate data processing skills** using Python.
 
 ---
-
 ## **Files**
 
 - `produce_bd_division_monthly.py` – Python script to process ERA5 NetCDF files and generate CSV.  
